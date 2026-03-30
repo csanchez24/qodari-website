@@ -1,0 +1,79 @@
+{
+  "Metadata": {
+    "Blog": {
+      "title": "Blog",
+      "description": "Noticias, artículos y notas sobre desarrollo, productos y proyectos."
+    },
+    "BlogCategory": {
+      "title": "Blog - {category}",
+      "description": "Artículos publicados en la categoría {category}."
+    }
+  },
+  "Blog": {
+    "title": "Blog",
+    "subtitle": "Noticias, artículos y notas.",
+    "empty": "No hay posts publicados todavía.",
+    "prev": "← Anterior",
+    "more": "Mostrar más"
+  },
+  "BlogCategory": {
+    "subtitle": "Posts en la categoría {title}.",
+    "back": "← Volver al blog",
+    "empty": "No hay posts en esta categoría todavía.",
+    "prev": "← Anterior",
+    "more": "Mostrar más"
+  },
+  "NotFound": {
+    "eyebrow": "404",
+    "title": "Página no encontrada",
+    "content": "La página que buscas no existe o ha sido movida.",
+    "button": "Volver al inicio"
+  },
+  "ContactForm": {
+    "labels": {
+      "name": "Nombre",
+      "email": "Email",
+      "subject": "¿En qué necesitas ayuda?",
+      "message": "Mensaje"
+    },
+    "placeholders": {
+      "name": "Tu nombre",
+      "email": "tu@email.com",
+      "message": "Cuéntanos qué quieres construir, mejorar o conectar, junto con tus objetivos o tiempos."
+    },
+    "subjectOptions": {
+      "custom-software": "Software a medida",
+      "integrations": "Integraciones y automatización",
+      "websites-cms": "Sitios web y CMS",
+      "ongoing-support": "Soporte continuo",
+      "not-sure": "Aún no estoy seguro"
+    },
+    "buttons": {
+      "submit": "Empezar la conversación",
+      "submitting": "Enviando..."
+    },
+    "messages": {
+      "formIntro": "Cuéntanos qué quieres construir, mejorar o conectar. Te responderemos con un siguiente paso claro y práctico.",
+      "recaptchaRequired": "Por favor completa el reCAPTCHA.",
+      "genericError": "Ocurrió un error al enviar el mensaje.",
+      "networkError": "Ocurrió un error de red. Intenta de nuevo.",
+      "success": "¡Mensaje enviado! Te responderé pronto."
+    },
+    "apiErrors": {
+      "INVALID_JSON": "No se pudo procesar el formulario. Inténtalo de nuevo.",
+      "INVALID_PAYLOAD": "Algunos campos no son válidos. Revisa el formulario e inténtalo de nuevo.",
+      "RECAPTCHA_CONFIG": "El formulario no está disponible temporalmente. Inténtalo más tarde.",
+      "RECAPTCHA_FAILED": "La verificación de reCAPTCHA falló. Inténtalo de nuevo.",
+      "EMAIL_FAILED": "No se pudo enviar el mensaje en este momento. Inténtalo más tarde.",
+      "SERVER_ERROR": "Ocurrió un error inesperado en el servidor. Inténtalo más tarde."
+    },
+    "errors": {
+      "nameRequired": "El nombre es obligatorio",
+      "nameTooLong": "Nombre demasiado largo",
+      "emailInvalid": "Email inválido",
+      "subjectRequired": "Selecciona en qué necesitas ayuda",
+      "messageTooShort": "El mensaje es muy corto",
+      "messageTooLong": "El mensaje es demasiado largo"
+    }
+  }
+}
